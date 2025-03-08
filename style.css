@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    text-align: center;
+    font-family: Poppins;
+}
+.btn{
+    cursor: pointer;
+    height:150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 6px solid black;
+    margin: 1rem;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.green{
+    background-color: #2ecc71;
+}
+.blue{
+    background-color: #3498db;
+}
+.purple{
+    background-color: #9b59b6;
+}
+.orange{
+    background-color: #e67e22;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color:deeppink;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.over{
+    font-family: "Dangrek", sans-serif;
+    position: absolute;
+    top: 35%;
+    color: white;
+    padding: 2rem;
+    background-color: brown;
+    /* display: none; */
+    font-size: 5rem;
+    left: 30%;
+}
